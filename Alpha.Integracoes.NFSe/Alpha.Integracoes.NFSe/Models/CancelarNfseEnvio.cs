@@ -10,6 +10,9 @@ namespace Alpha.Integracoes.NFSe.Models.CancelarNfseEnvio
 	[XmlRoot(ElementName = "IdentificacaoNfse", Namespace = "http://www.abrasf.org.br/nfse")]
 	public class IdentificacaoNfse
 	{
+		/// <summary>
+		/// Número 123
+		/// </summary>
 		[XmlElement(ElementName = "Numero", Namespace = "http://www.abrasf.org.br/nfse")]
 		public string Numero { get; set; }
 		[XmlElement(ElementName = "Cnpj", Namespace = "http://www.abrasf.org.br/nfse")]
