@@ -63,6 +63,7 @@
     <Compile Include="Models\EnviarLoteRpsResposta.cs" />
     <Compile Include="Models\GerarNfseEnvio.cs" />
     <Compile Include="Models\GerarNfseResposta.cs" />
+    <Compile Include="Models\TiposComplexos\Cabecalho.cs" />
     <Compile Include="Models\TiposComplexos\CompNfse.cs" />
     <Compile Include="Models\TiposComplexos\ListaMensagemRetorno.cs" />
     <Compile Include="Models\TiposComplexos\ListaMensagemRetornoLote.cs" />
