@@ -90,25 +90,8 @@ namespace Alpha.Integracoes.NFSe.Util
 
             var keyInfo = new System.Security.Cryptography.Xml.KeyInfo();
             KeyInfoX509Data keyInfoData = new KeyInfoX509Data();
-
-            X509Certificate2 certificate = null;
-            var store = new X509Store(StoreLocation.CurrentUser);
-            store.Open(OpenFlags.ReadOnly);
-            var certificates = store.Certificates;
-            foreach (var cert in certificates)
-            {
-                if (cert.Subject.Contains(certificadoStr))
-                {
-                    certificate = cert;
-                    break;
-                }
-            }
-
-            if (certificate == null)
-            {
-                throw new Exception("Certificado não encontrado");
-            }
-
+            
+            var certificate = GetCertificateFromStore(certificadoStr);
             keyInfoData.AddCertificate(certificate);
 
             keyInfo.AddClause(keyInfoData);
@@ -131,6 +114,30 @@ namespace Alpha.Integracoes.NFSe.Util
 
             return doc.AsString();
         }
+
+        public static X509Certificate2 GetCertificateFromStore(string certificadoStr)
+        {
+            X509Certificate2 certificate = null;
+            var store = new X509Store(StoreLocation.CurrentUser);
+            store.Open(OpenFlags.ReadOnly);
+            var certificates = store.Certificates;
+            foreach (var cert in certificates)
+            {
+                if (cert.Subject.Contains(certificadoStr))
+                {
+                    certificate = cert;
+                    break;
+                }
+            }
+
+            if (certificate == null)
+            {
+                throw new Exception("Certificado não encontrado");
+            }
+
+            return certificate;
+        }
+
         // Verify the signature of an XML file and return the result.
         public static bool VerifyXmlFile(String xml, RSA Key)
         {

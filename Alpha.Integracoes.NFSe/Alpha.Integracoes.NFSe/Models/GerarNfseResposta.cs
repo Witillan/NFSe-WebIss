@@ -85,7 +85,7 @@ namespace Alpha.Integracoes.NFSe.Models.GerarNfseResposta
 	public class Endereco
 	{
 		[XmlElement(ElementName = "Endereco", Namespace = "http://www.abrasf.org.br/nfse")]
-		public string Endereco { get; set; }
+		public string EnderecoStr { get; set; }
 		[XmlElement(ElementName = "Numero", Namespace = "http://www.abrasf.org.br/nfse")]
 		public string Numero { get; set; }
 		[XmlElement(ElementName = "Complemento", Namespace = "http://www.abrasf.org.br/nfse")]

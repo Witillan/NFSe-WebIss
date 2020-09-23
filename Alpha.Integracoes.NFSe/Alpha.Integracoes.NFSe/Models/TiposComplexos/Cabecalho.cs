@@ -7,7 +7,7 @@ namespace Alpha.Integracoes.NFSe.Models.TiposComplexos.Cabecalho
 	public class Cabecalho
 	{
 		[XmlAttribute(AttributeName = "versao", Namespace = "http://www.abrasf.org.br/nfse")]
-		public string Numero { get; set; }
+		public string Versao { get; set; }
 		[XmlElement(ElementName = "versaoDados", Namespace = "http://www.abrasf.org.br/nfse")]
 		public string VersaoDados { get; set; }
 	}
