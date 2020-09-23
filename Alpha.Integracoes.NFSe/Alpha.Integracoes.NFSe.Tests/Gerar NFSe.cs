@@ -109,10 +109,6 @@ namespace NFS_e
                     }
                 }
             };
-
-            var service = new NfseServicesClient();
-
-            service
         }
     }
 }
