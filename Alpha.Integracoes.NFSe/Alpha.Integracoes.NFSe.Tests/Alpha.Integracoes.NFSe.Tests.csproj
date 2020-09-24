@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,31 +62,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enviar Lote de RPS.cs">
+    <Compile Include="CancelarNFSe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Enviar Lote de RPS.Designer.cs">
-      <DependentUpon>Enviar Lote de RPS.cs</DependentUpon>
+    <Compile Include="CancelarNFSe.Designer.cs">
+      <DependentUpon>CancelarNFSe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gerar NFSe.cs">
+    <Compile Include="ConsultaNFS-e.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gerar NFSe.Designer.cs">
-      <DependentUpon>Gerar NFSe.cs</DependentUpon>
+    <Compile Include="ConsultaNFS-e.Designer.cs">
+      <DependentUpon>ConsultaNFS-e.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="ConsultarLoteRps.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="ConsultarLoteRps.Designer.cs">
+      <DependentUpon>ConsultarLoteRps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsutarNFSeRps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsutarNFSeRps.Designer.cs">
+      <DependentUpon>ConsutarNFSeRps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsutarSituacaoLoteRps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsutarSituacaoLoteRps.Designer.cs">
+      <DependentUpon>ConsutarSituacaoLoteRps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnviarLoteRps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnviarLoteRps.Designer.cs">
+      <DependentUpon>EnviarLoteRps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GerarNFSe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GerarNFSe.Designer.cs">
+      <DependentUpon>GerarNFSe.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Gerar NFSe.resx">
-      <DependentUpon>Gerar NFSe.cs</DependentUpon>
+    <EmbeddedResource Include="CancelarNFSe.resx">
+      <DependentUpon>CancelarNFSe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="ConsultaNFS-e.resx">
+      <DependentUpon>ConsultaNFS-e.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarLoteRps.resx">
+      <DependentUpon>ConsultarLoteRps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsutarNFSeRps.resx">
+      <DependentUpon>ConsutarNFSeRps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsutarSituacaoLoteRps.resx">
+      <DependentUpon>ConsutarSituacaoLoteRps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnviarLoteRps.resx">
+      <DependentUpon>EnviarLoteRps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GerarNFSe.resx">
+      <DependentUpon>GerarNFSe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,6 +154,18 @@
       <Project>{961b10d1-afb9-4d54-aaf8-e892e5356eed}</Project>
       <Name>Alpha.Integracoes.NFSe</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

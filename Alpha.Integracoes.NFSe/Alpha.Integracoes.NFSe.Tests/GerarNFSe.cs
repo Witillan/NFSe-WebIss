@@ -108,9 +108,9 @@ namespace NFS_e
           ListaRps = new ListaRps
           {
             Rps = new List<Rps>()
-                        {
-                            rps
-                        }
+            {
+                rps
+            }
           }
         }
       };
