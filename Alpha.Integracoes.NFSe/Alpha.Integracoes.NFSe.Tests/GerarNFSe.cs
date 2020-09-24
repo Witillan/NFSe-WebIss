@@ -111,7 +111,8 @@ namespace NFS_e
             {
                 rps
             }
-          }
+          },
+         
         }
       };
       try
@@ -120,14 +121,21 @@ namespace NFS_e
         var x509certificado = XmlUtil.GetCertificateFromStore(this.Certificado);
         service.ClientCredentials.ClientCertificate.Certificate = x509certificado;
 
+
+        service.ClientCredentials.UserName.UserName = "03836742209";
+        service.ClientCredentials.UserName.Password = "112658";
+
+        
+
+
         if (service.State == CommunicationState.Closed)
         {
           service.Open();
         }
 
-        var cabecalho = new Cabecalho { Versao = "01", VersaoDados = "01" };
-
-        var resposta = await service.RecepcionarLoteRpsAsync(cabecalho.ToXml(), enviarLoteRpsEnvio.ToXml());
+        var cabecalho = new Cabecalho { Versao = "01", VersaoDados = "01" }.ToXml();
+                var corpo = enviarLoteRpsEnvio.ToXml();
+        var resposta = await service.RecepcionarLoteRpsAsync(cabecalho, corpo);
         MessageBox.Show(resposta);
       }
       catch (Exception ex)

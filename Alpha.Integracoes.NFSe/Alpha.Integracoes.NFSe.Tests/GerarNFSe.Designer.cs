@@ -158,14 +158,14 @@
             this.txtInscricaoMunicipal_Prestador.Location = new System.Drawing.Point(244, 51);
             this.txtInscricaoMunicipal_Prestador.Name = "txtInscricaoMunicipal_Prestador";
             this.txtInscricaoMunicipal_Prestador.Size = new System.Drawing.Size(153, 20);
-            this.txtInscricaoMunicipal_Prestador.TabIndex = 14;
+            this.txtInscricaoMunicipal_Prestador.TabIndex = 2;
             // 
             // txtCNPJ_Prestador
             // 
             this.txtCNPJ_Prestador.Location = new System.Drawing.Point(10, 51);
             this.txtCNPJ_Prestador.Name = "txtCNPJ_Prestador";
             this.txtCNPJ_Prestador.Size = new System.Drawing.Size(170, 20);
-            this.txtCNPJ_Prestador.TabIndex = 16;
+            this.txtCNPJ_Prestador.TabIndex = 1;
             // 
             // label3
             // 
@@ -240,7 +240,7 @@
             this.txtCodMunicipio_Tomador.Location = new System.Drawing.Point(13, 120);
             this.txtCodMunicipio_Tomador.Name = "txtCodMunicipio_Tomador";
             this.txtCodMunicipio_Tomador.Size = new System.Drawing.Size(160, 20);
-            this.txtCodMunicipio_Tomador.TabIndex = 19;
+            this.txtCodMunicipio_Tomador.TabIndex = 6;
             // 
             // label51
             // 
@@ -256,7 +256,7 @@
             this.txtCNPJ_Tomador.Location = new System.Drawing.Point(9, 39);
             this.txtCNPJ_Tomador.Name = "txtCNPJ_Tomador";
             this.txtCNPJ_Tomador.Size = new System.Drawing.Size(170, 20);
-            this.txtCNPJ_Tomador.TabIndex = 16;
+            this.txtCNPJ_Tomador.TabIndex = 3;
             // 
             // label9
             // 
@@ -278,6 +278,7 @@
             // 
             // cboxUF_Tomador
             // 
+            this.cboxUF_Tomador.DropDownWidth = 11;
             this.cboxUF_Tomador.FormattingEnabled = true;
             this.cboxUF_Tomador.Items.AddRange(new object[] {
             "(AC)",
@@ -317,56 +318,56 @@
             this.txtCep_Tomador.Location = new System.Drawing.Point(540, 120);
             this.txtCep_Tomador.Name = "txtCep_Tomador";
             this.txtCep_Tomador.Size = new System.Drawing.Size(137, 20);
-            this.txtCep_Tomador.TabIndex = 11;
+            this.txtCep_Tomador.TabIndex = 8;
             // 
             // txtNumEndereco_Tomador
             // 
             this.txtNumEndereco_Tomador.Location = new System.Drawing.Point(309, 201);
             this.txtNumEndereco_Tomador.Name = "txtNumEndereco_Tomador";
             this.txtNumEndereco_Tomador.Size = new System.Drawing.Size(57, 20);
-            this.txtNumEndereco_Tomador.TabIndex = 11;
+            this.txtNumEndereco_Tomador.TabIndex = 13;
             // 
             // txtEndereco_Tomador
             // 
             this.txtEndereco_Tomador.Location = new System.Drawing.Point(12, 201);
             this.txtEndereco_Tomador.Name = "txtEndereco_Tomador";
             this.txtEndereco_Tomador.Size = new System.Drawing.Size(279, 20);
-            this.txtEndereco_Tomador.TabIndex = 11;
+            this.txtEndereco_Tomador.TabIndex = 12;
             // 
             // txtTelefone_Tomador
             // 
             this.txtTelefone_Tomador.Location = new System.Drawing.Point(12, 162);
             this.txtTelefone_Tomador.Name = "txtTelefone_Tomador";
             this.txtTelefone_Tomador.Size = new System.Drawing.Size(161, 20);
-            this.txtTelefone_Tomador.TabIndex = 12;
+            this.txtTelefone_Tomador.TabIndex = 9;
             // 
             // txtComplemento_Tomador
             // 
             this.txtComplemento_Tomador.Location = new System.Drawing.Point(188, 120);
             this.txtComplemento_Tomador.Name = "txtComplemento_Tomador";
             this.txtComplemento_Tomador.Size = new System.Drawing.Size(323, 20);
-            this.txtComplemento_Tomador.TabIndex = 12;
+            this.txtComplemento_Tomador.TabIndex = 7;
             // 
             // txtEmail_Tomador
             // 
             this.txtEmail_Tomador.Location = new System.Drawing.Point(378, 78);
             this.txtEmail_Tomador.Name = "txtEmail_Tomador";
             this.txtEmail_Tomador.Size = new System.Drawing.Size(299, 20);
-            this.txtEmail_Tomador.TabIndex = 13;
+            this.txtEmail_Tomador.TabIndex = 5;
             // 
             // txtBairro_Tomador
             // 
             this.txtBairro_Tomador.Location = new System.Drawing.Point(188, 162);
             this.txtBairro_Tomador.Name = "txtBairro_Tomador";
             this.txtBairro_Tomador.Size = new System.Drawing.Size(202, 20);
-            this.txtBairro_Tomador.TabIndex = 13;
+            this.txtBairro_Tomador.TabIndex = 10;
             // 
             // txtNome_Tomador
             // 
             this.txtNome_Tomador.Location = new System.Drawing.Point(10, 78);
             this.txtNome_Tomador.Name = "txtNome_Tomador";
             this.txtNome_Tomador.Size = new System.Drawing.Size(343, 20);
-            this.txtNome_Tomador.TabIndex = 14;
+            this.txtNome_Tomador.TabIndex = 4;
             // 
             // label7
             // 
@@ -507,105 +508,105 @@
             this.txtAliquota.Location = new System.Drawing.Point(429, 47);
             this.txtAliquota.Name = "txtAliquota";
             this.txtAliquota.Size = new System.Drawing.Size(64, 20);
-            this.txtAliquota.TabIndex = 15;
+            this.txtAliquota.TabIndex = 18;
             // 
             // txtDescontoInco
             // 
             this.txtDescontoInco.Location = new System.Drawing.Point(540, 47);
             this.txtDescontoInco.Name = "txtDescontoInco";
             this.txtDescontoInco.Size = new System.Drawing.Size(134, 20);
-            this.txtDescontoInco.TabIndex = 15;
+            this.txtDescontoInco.TabIndex = 19;
             // 
             // txtDescontoCondi
             // 
             this.txtDescontoCondi.Location = new System.Drawing.Point(8, 129);
             this.txtDescontoCondi.Name = "txtDescontoCondi";
             this.txtDescontoCondi.Size = new System.Drawing.Size(134, 20);
-            this.txtDescontoCondi.TabIndex = 15;
+            this.txtDescontoCondi.TabIndex = 24;
             // 
             // txtValorLiquidoNFSe
             // 
             this.txtValorLiquidoNFSe.Location = new System.Drawing.Point(540, 90);
             this.txtValorLiquidoNFSe.Name = "txtValorLiquidoNFSe";
             this.txtValorLiquidoNFSe.Size = new System.Drawing.Size(124, 20);
-            this.txtValorLiquidoNFSe.TabIndex = 15;
+            this.txtValorLiquidoNFSe.TabIndex = 23;
             // 
             // txtRegimeEspecial
             // 
             this.txtRegimeEspecial.Location = new System.Drawing.Point(487, 168);
             this.txtRegimeEspecial.Name = "txtRegimeEspecial";
             this.txtRegimeEspecial.Size = new System.Drawing.Size(140, 20);
-            this.txtRegimeEspecial.TabIndex = 15;
+            this.txtRegimeEspecial.TabIndex = 31;
             // 
             // txtCodCNAE
             // 
             this.txtCodCNAE.Location = new System.Drawing.Point(328, 168);
             this.txtCodCNAE.Name = "txtCodCNAE";
             this.txtCodCNAE.Size = new System.Drawing.Size(130, 20);
-            this.txtCodCNAE.TabIndex = 15;
+            this.txtCodCNAE.TabIndex = 30;
             // 
             // txtOutrasRetencoes
             // 
             this.txtOutrasRetencoes.Location = new System.Drawing.Point(171, 168);
             this.txtOutrasRetencoes.Name = "txtOutrasRetencoes";
             this.txtOutrasRetencoes.Size = new System.Drawing.Size(130, 20);
-            this.txtOutrasRetencoes.TabIndex = 15;
+            this.txtOutrasRetencoes.TabIndex = 29;
             // 
             // txtValorIR
             // 
             this.txtValorIR.Location = new System.Drawing.Point(8, 168);
             this.txtValorIR.Name = "txtValorIR";
             this.txtValorIR.Size = new System.Drawing.Size(130, 20);
-            this.txtValorIR.TabIndex = 15;
+            this.txtValorIR.TabIndex = 28;
             // 
             // txtValorCSLL
             // 
             this.txtValorCSLL.Location = new System.Drawing.Point(487, 129);
             this.txtValorCSLL.Name = "txtValorCSLL";
             this.txtValorCSLL.Size = new System.Drawing.Size(130, 20);
-            this.txtValorCSLL.TabIndex = 15;
+            this.txtValorCSLL.TabIndex = 27;
             // 
             // txtValorCofins
             // 
             this.txtValorCofins.Location = new System.Drawing.Point(328, 129);
             this.txtValorCofins.Name = "txtValorCofins";
             this.txtValorCofins.Size = new System.Drawing.Size(130, 20);
-            this.txtValorCofins.TabIndex = 15;
+            this.txtValorCofins.TabIndex = 26;
             // 
             // txtValorIssRetido
             // 
             this.txtValorIssRetido.Location = new System.Drawing.Point(171, 129);
             this.txtValorIssRetido.Name = "txtValorIssRetido";
             this.txtValorIssRetido.Size = new System.Drawing.Size(130, 20);
-            this.txtValorIssRetido.TabIndex = 15;
+            this.txtValorIssRetido.TabIndex = 25;
             // 
             // txtISSRetido
             // 
             this.txtISSRetido.Location = new System.Drawing.Point(8, 90);
             this.txtISSRetido.Name = "txtISSRetido";
             this.txtISSRetido.Size = new System.Drawing.Size(103, 20);
-            this.txtISSRetido.TabIndex = 15;
+            this.txtISSRetido.TabIndex = 20;
             // 
             // txtValorISS
             // 
             this.txtValorISS.Location = new System.Drawing.Point(188, 90);
             this.txtValorISS.Name = "txtValorISS";
             this.txtValorISS.Size = new System.Drawing.Size(103, 20);
-            this.txtValorISS.TabIndex = 15;
+            this.txtValorISS.TabIndex = 21;
             // 
             // txtBaseCalculo
             // 
             this.txtBaseCalculo.Location = new System.Drawing.Point(371, 90);
             this.txtBaseCalculo.Name = "txtBaseCalculo";
             this.txtBaseCalculo.Size = new System.Drawing.Size(103, 20);
-            this.txtBaseCalculo.TabIndex = 15;
+            this.txtBaseCalculo.TabIndex = 22;
             // 
             // txtValorINSS
             // 
             this.txtValorINSS.Location = new System.Drawing.Point(284, 47);
             this.txtValorINSS.Name = "txtValorINSS";
             this.txtValorINSS.Size = new System.Drawing.Size(103, 20);
-            this.txtValorINSS.TabIndex = 15;
+            this.txtValorINSS.TabIndex = 17;
             // 
             // label48
             // 
@@ -621,7 +622,7 @@
             this.txtValorPIS.Location = new System.Drawing.Point(143, 47);
             this.txtValorPIS.Name = "txtValorPIS";
             this.txtValorPIS.Size = new System.Drawing.Size(103, 20);
-            this.txtValorPIS.TabIndex = 15;
+            this.txtValorPIS.TabIndex = 16;
             // 
             // label47
             // 
@@ -814,21 +815,21 @@
             this.txtSimplesNacional.Location = new System.Drawing.Point(471, 63);
             this.txtSimplesNacional.Name = "txtSimplesNacional";
             this.txtSimplesNacional.Size = new System.Drawing.Size(88, 20);
-            this.txtSimplesNacional.TabIndex = 22;
+            this.txtSimplesNacional.TabIndex = 34;
             // 
             // txtDiscriminacao
             // 
             this.txtDiscriminacao.Location = new System.Drawing.Point(8, 147);
             this.txtDiscriminacao.Name = "txtDiscriminacao";
             this.txtDiscriminacao.Size = new System.Drawing.Size(433, 20);
-            this.txtDiscriminacao.TabIndex = 23;
+            this.txtDiscriminacao.TabIndex = 38;
             // 
             // txtCodTributacao
             // 
             this.txtCodTributacao.Location = new System.Drawing.Point(375, 106);
             this.txtCodTributacao.Name = "txtCodTributacao";
             this.txtCodTributacao.Size = new System.Drawing.Size(164, 20);
-            this.txtCodTributacao.TabIndex = 23;
+            this.txtCodTributacao.TabIndex = 37;
             // 
             // label30
             // 
@@ -844,28 +845,28 @@
             this.dtDataEmissaoRPS.Location = new System.Drawing.Point(464, 148);
             this.dtDataEmissaoRPS.Name = "dtDataEmissaoRPS";
             this.dtDataEmissaoRPS.Size = new System.Drawing.Size(212, 20);
-            this.dtDataEmissaoRPS.TabIndex = 19;
+            this.dtDataEmissaoRPS.TabIndex = 39;
             // 
             // txtCodMunicipio
             // 
             this.txtCodMunicipio.Location = new System.Drawing.Point(9, 106);
             this.txtCodMunicipio.Name = "txtCodMunicipio";
             this.txtCodMunicipio.Size = new System.Drawing.Size(164, 20);
-            this.txtCodMunicipio.TabIndex = 23;
+            this.txtCodMunicipio.TabIndex = 35;
             // 
             // txtCodListaServico
             // 
             this.txtCodListaServico.Location = new System.Drawing.Point(210, 106);
             this.txtCodListaServico.Name = "txtCodListaServico";
             this.txtCodListaServico.Size = new System.Drawing.Size(132, 20);
-            this.txtCodListaServico.TabIndex = 23;
+            this.txtCodListaServico.TabIndex = 36;
             // 
             // txtIncentivadorCultural
             // 
             this.txtIncentivadorCultural.Location = new System.Drawing.Point(10, 63);
             this.txtIncentivadorCultural.Name = "txtIncentivadorCultural";
             this.txtIncentivadorCultural.Size = new System.Drawing.Size(203, 20);
-            this.txtIncentivadorCultural.TabIndex = 23;
+            this.txtIncentivadorCultural.TabIndex = 32;
             // 
             // label21
             // 
@@ -890,7 +891,7 @@
             this.txtNaturezaDaOperacao.Location = new System.Drawing.Point(279, 63);
             this.txtNaturezaDaOperacao.Name = "txtNaturezaDaOperacao";
             this.txtNaturezaDaOperacao.Size = new System.Drawing.Size(134, 20);
-            this.txtNaturezaDaOperacao.TabIndex = 24;
+            this.txtNaturezaDaOperacao.TabIndex = 33;
             // 
             // label37
             // 
@@ -992,21 +993,21 @@
             this.cboxStatus.Location = new System.Drawing.Point(383, 55);
             this.cboxStatus.Name = "cboxStatus";
             this.cboxStatus.Size = new System.Drawing.Size(61, 21);
-            this.cboxStatus.TabIndex = 25;
+            this.cboxStatus.TabIndex = 45;
             // 
             // txtSerieRPS
             // 
             this.txtSerieRPS.Location = new System.Drawing.Point(270, 56);
             this.txtSerieRPS.Name = "txtSerieRPS";
             this.txtSerieRPS.Size = new System.Drawing.Size(88, 20);
-            this.txtSerieRPS.TabIndex = 15;
+            this.txtSerieRPS.TabIndex = 44;
             // 
             // txtTipoRPS
             // 
             this.txtTipoRPS.Location = new System.Drawing.Point(119, 56);
             this.txtTipoRPS.Name = "txtTipoRPS";
             this.txtTipoRPS.Size = new System.Drawing.Size(128, 20);
-            this.txtTipoRPS.TabIndex = 16;
+            this.txtTipoRPS.TabIndex = 43;
             // 
             // label39
             // 
@@ -1022,7 +1023,7 @@
             this.txtNumRPS.Location = new System.Drawing.Point(9, 56);
             this.txtNumRPS.Name = "txtNumRPS";
             this.txtNumRPS.Size = new System.Drawing.Size(90, 20);
-            this.txtNumRPS.TabIndex = 16;
+            this.txtNumRPS.TabIndex = 42;
             // 
             // label26
             // 
@@ -1060,7 +1061,7 @@
             this.btnEnviarRPS.Location = new System.Drawing.Point(607, 951);
             this.btnEnviarRPS.Name = "btnEnviarRPS";
             this.btnEnviarRPS.Size = new System.Drawing.Size(75, 23);
-            this.btnEnviarRPS.TabIndex = 30;
+            this.btnEnviarRPS.TabIndex = 46;
             this.btnEnviarRPS.Text = "Enviar";
             this.btnEnviarRPS.UseVisualStyleBackColor = false;
             this.btnEnviarRPS.Click += new System.EventHandler(this.btnEnviarRPS_Click);
@@ -1093,14 +1094,14 @@
             this.txtQtdRPS.Location = new System.Drawing.Point(156, 56);
             this.txtQtdRPS.Name = "txtQtdRPS";
             this.txtQtdRPS.Size = new System.Drawing.Size(88, 20);
-            this.txtQtdRPS.TabIndex = 15;
+            this.txtQtdRPS.TabIndex = 41;
             // 
             // txtNumLote
             // 
             this.txtNumLote.Location = new System.Drawing.Point(9, 56);
             this.txtNumLote.Name = "txtNumLote";
             this.txtNumLote.Size = new System.Drawing.Size(90, 20);
-            this.txtNumLote.TabIndex = 16;
+            this.txtNumLote.TabIndex = 40;
             // 
             // label25
             // 
