@@ -77,7 +77,7 @@ namespace Alpha.Integracoes.NFSe.Util
 
             // Create a reference to be signed.
             var reference = new System.Security.Cryptography.Xml.Reference();
-            reference.Uri = "";
+            reference.Uri = $"";
 
             // Add an enveloped transformation to the reference.
             reference.AddTransform(new XmlDsigEnvelopedSignatureTransform());

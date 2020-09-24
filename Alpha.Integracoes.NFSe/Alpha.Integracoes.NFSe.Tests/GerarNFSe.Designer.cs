@@ -159,6 +159,7 @@
             this.txtInscricaoMunicipal_Prestador.Name = "txtInscricaoMunicipal_Prestador";
             this.txtInscricaoMunicipal_Prestador.Size = new System.Drawing.Size(153, 20);
             this.txtInscricaoMunicipal_Prestador.TabIndex = 2;
+            this.txtInscricaoMunicipal_Prestador.Text = "00000002953714";
             // 
             // txtCNPJ_Prestador
             // 
@@ -166,6 +167,7 @@
             this.txtCNPJ_Prestador.Name = "txtCNPJ_Prestador";
             this.txtCNPJ_Prestador.Size = new System.Drawing.Size(170, 20);
             this.txtCNPJ_Prestador.TabIndex = 1;
+            this.txtCNPJ_Prestador.Text = "11230116000133";
             // 
             // label3
             // 
